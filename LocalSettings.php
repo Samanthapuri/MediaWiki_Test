@@ -116,6 +116,7 @@ $wgDiff3 = "/usr/bin/diff3";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
+require_once "$IP/skins/Vector/Vector.php";
 $wgDefaultSkin = "vector";
 
 # End of automatically generated settings.
