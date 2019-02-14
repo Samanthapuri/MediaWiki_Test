@@ -29,7 +29,7 @@ $wgSitename = "CapgeminiPOC";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://54.160.159.63:31605";
+$wgServer = "http://172.31.9.65:30912";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -43,8 +43,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "apache@54.160.159.63";
-$wgPasswordSender = "apache@54.160.159.63";
+$wgEmergencyContact = "apache@172.31.9.65";
+$wgPasswordSender = "apache@172.31.9.65";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -53,7 +53,7 @@ $wgEmailAuthentication = true;
 ## Database settings
 $wgDBtype = "mysql";
 $wgDBserver = "mysql";
-$wgDBname = "mediawikidb";
+$wgDBname = "sampledb";
 $wgDBuser = "rakesh";
 $wgDBpassword = "Feb2019";
 
