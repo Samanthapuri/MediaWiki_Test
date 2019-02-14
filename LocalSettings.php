@@ -118,6 +118,13 @@ $wgDiff3 = "/usr/bin/diff3";
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "vector";
 
+# Enabled skins.
+# The following skins were automatically enabled:
+wfLoadSkin( 'MonoBook' );
+wfLoadSkin( 'Timeless' );
+wfLoadSkin( 'Vector' );
+
+
 # End of automatically generated settings.
 # Add more configuration options below.
 
