@@ -79,7 +79,7 @@ $wgUseInstantCommons = false;
 # Periodically send a pingback to https://www.mediawiki.org/ with basic data
 # about this MediaWiki instance. The Wikimedia Foundation shares this data
 # with MediaWiki developers to help guide future development efforts.
-$wgPingback = true;
+$wgPingback = false;
 
 ## If you use ImageMagick (or any other shell command) on a
 ## Linux server, this will need to be set to the name of an
@@ -117,13 +117,6 @@ $wgDiff3 = "/usr/bin/diff3";
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "vector";
-
-# Enabled skins.
-# The following skins were automatically enabled:
-wfLoadSkin( 'MonoBook' );
-wfLoadSkin( 'Timeless' );
-wfLoadSkin( 'Vector' );
-
 
 # End of automatically generated settings.
 # Add more configuration options below.
